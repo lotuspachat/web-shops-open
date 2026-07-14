@@ -15,7 +15,6 @@ async function get_shop_name(slug) {
   // "http://localhost:3000/api/shop_name?tags=Food&tags=Grocery" 
   slug.forEach(tag => url.searchParams.append('tags', tag));
 
-  console.log(url);
   try {
 
     const temp = await fetch(url);
