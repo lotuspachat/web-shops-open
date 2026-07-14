@@ -1,0 +1,1 @@
+logosource = https://www.svgrepo.com/svg/530132/magnifier
