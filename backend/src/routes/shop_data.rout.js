@@ -1,4 +1,4 @@
-import * as shop_dataController from "../control/shop_data.control.js";
+import * as shop_dataController from "../controller/shop_data.control.js";
 import { Router } from "express";
 
 

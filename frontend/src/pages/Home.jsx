@@ -1,11 +1,16 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import ShopCard from '../shopcard';
 
 function Home() {
     const [search, setSearch]= useState ("");
     const navigate = useNavigate();
-
+    useEffect (()=> {
+      if (search)
+      {
+        console.log(search);
+      }
+    })
     const categories = [
         "Food & Grocery",
         "Stationery & Books",
